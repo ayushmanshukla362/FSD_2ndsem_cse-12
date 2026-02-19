@@ -1,60 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Web Development Course</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Test (Online Course)</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #0f172a; 
+            color: #f8fafc; 
             margin: 0;
-            padding: 20px;
-            text-align: center;
+            padding: 40px 20px;
         }
 
         .course-container {
-            background-color: white;
-            max-width: 800px;
+            background-color: #1e293b; 
+            max-width: 850px;
             margin: 0 auto;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            padding: 40px;
+            border-radius: 15px;
+            border: 1px solid #334155;
+            box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.5), 0px 0px 15px rgba(59, 130, 246, 0.2);
+            text-align: center;
         }
 
-        /* Updated to fit the video better */
+        h1 {
+            color: #3b82f6; 
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #94a3b8; 
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
         iframe {
             width: 100%;
             height: 450px;
-            border: none;
-            border-radius: 8px;
+            border: 2px solid #334155;
+            border-radius: 12px;
+            background-color: #000;
         }
 
         .module-list {
             text-align: left;
-            margin-top: 30px;
+            margin-top: 40px;
         }
 
         h3 {
-            color: #d32f2f; /* Apna College brand-like red */
-            border-bottom: 2px solid #f4f4f4;
-            padding-bottom: 10px;
+            color: #60a5fa; 
+            border-bottom: 2px solid #334155;
+            padding-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         ul {
-            list-style-type: none; /* Removing default bullets */
+            list-style-type: none; 
             padding-left: 0;
-            line-height: 2.5;
+            margin-top: 20px;
         }
 
         li {
-            padding: 5px 10px;
-            border-bottom: 1px solid #eee;
+            padding: 15px;
+            border-bottom: 1px solid #334155;
+            cursor: pointer;
+            border-radius: 8px;
         }
 
         li::before {
-            content: "• ";
-            color: #d32f2f;
-            font-weight: bold;
+            content: "✦"; 
+            color: #3b82f6;
+            margin-right: 12px;
+            font-size: 0.9rem;
+        }
+
+        li:last-child {
+            border-bottom: none;
         }
     </style>
 </head>
@@ -64,11 +88,11 @@
         <h1>Full Stack Web Development</h1>
         <p>Learn HTML, CSS, JavaScript, and Backend from the Alpha series.</p>
 
-       <iframe 
-    src="https://www.youtube.com/embed/voXYG17rhQA" 
-    title="Web Development Course" 
-    allowfullscreen>
-</iframe>
+        <iframe 
+            src="https://www.youtube.com/embed/voXYG17rhQA" 
+            title="Web Development Course" 
+            allowfullscreen>
+        </iframe>
 
         <div class="module-list">
             <h3>Alpha Batch: Web Modules</h3>
